@@ -1,3 +1,6 @@
+"Aspiring toward MQM CPU/GPU/NPU and MQM Data Transmission"
+( MQM CPU/GPU/NPU와 MQM data 전송을 꿈꾸며  )
+
  1channel에 1cycle 당 (n + m ) x phase bit를  보내는 기술... + 발열에 좋은 방법
  
 ;This technology is released as prior art.
