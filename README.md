@@ -1,5 +1,8 @@
  1channel에 1cycle 당 n + n bit를  보내는 기술... + 발열에 좋은 방법
  
+;This technology is released as prior art.
+;The author waives patent rights.
+
 # MQM-PAM_OFDM-Transmission-Method
 “HBM 발열 문제를 해결하기 위한 초고속 단일채널 전송 구조: MQM-PAM/OFDM 기반 n+n 비트 동시 전송 알고리즘
 
@@ -25,8 +28,8 @@ site : https://cafe.daum.net/scwpark/AavY/54,
 
 [2] PAM방식 MQM
 AMPLITUDE방식도 [1]과유사하게 비트값을 하면
-n bit를 1채널에 보낼 수 있음
+m bit를 1채널에 보낼 수 있음
 
 **==> 핵심 : n 비트값을  10진수 mv, V 로 변경 하여 전송 **
 
- 1channel에 1cycle 당 n + n bit를  보내는 기술...
+ 1channel에 1cycle 당 n + m bit를  보내는 기술...
