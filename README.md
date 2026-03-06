@@ -1,35 +1,82 @@
- 1channel에 1cycle 당 n + n bit를  보내는 기술... + 발열에 좋은 방법
+ 1channel에 1cycle 당 (n + m ) x phase bit를  보내는 기술... + 발열에 좋은 방법
  
 ;This technology is released as prior art.
 ;The author waives patent rights.
 
-# MQM-PAM_OFDM-Transmission-Method
-“HBM 발열 문제를 해결하기 위한 초고속 단일채널 전송 구조: MQM-PAM/OFDM 기반 n+n 비트 동시 전송 알고리즘
+# Multi-Quantum Mode (MQM) Superposition Algorithm for HBM
 
-고용량 데이타 1channel 1cycle ( n × m bits) 전송 예) n : 128 bit,  m : 128bit
+![License: Open Source](https://img.shields.io/badge/License-Open_Source-green.svg)
+![Status: Prior Art](https://img.shields.io/badge/Status-Prior_Art-blue.svg)
 
-제가 프로그래머라서...  전기전자공학을 잘 모름...
+**A 3D Data Mapping Protocol for High-Bandwidth Memory (HBM) and High-Speed Bus Architecture using Frequency, Amplitude, and Phase Superposition.**
 
-site : https://cafe.daum.net/scwpark/AavY/54,     
+---
 
-        https://blog.naver.com/PostList.naver?blogId=namyangju_first&from=postList&categoryNo=7
-<3>  핵심 설계 원리 (Core Logic)
+## 1. Introduction
+Modern semiconductor architectures, especially HBM, face critical thermal and bandwidth scaling limits due to conventional linear data transmission. **MQM (Multi-Quantum Mode)** is an ultra-high-speed parallel transmission protocol designed to overcome these barriers by superimposing multiple data bits into a single physical channel using 3-dimensional signal characteristics.
 
+---
 
-<4> 상세 기술 명세 (Technical Specifications)
-[1]. OFDM방식과유사한 MQM
-1. 핵심 설계 원리 (The Core Logic) 
-: 1 channel 에 n bit를 동시에 전송하는 기술 => 32 channel이면 32 x n bit를 한방에 전송 기술
+## 2. Core Logic & Mathematical Foundation
+The MQM algorithm departs from 1-bit-per-lane signaling by mapping $n$-bits simultaneously into a complex waveform $S(t)$.
 
-1) 비트-주파수 맵핑: 각 비트(1~32)는 독립적인 주파수 n을 가집니다. 
-( 물론 n 최대한 많이 잡아도 되요... )
+### 2.1 The Superposition Formula
+Each bit is assigned a unique frequency and voltage determined by a scaling factor to ensure integrity:
+$F(n) = 2^n \times \text{Scaling Factor}$
+*(Where $n$ is the bit position and Scaling Factor is the hardware amplification constant)*
 
-**===> n 비트값을  10진수 Hz, KHz로 변경 하여 전송 **
+### 2.2 3D Data Symbol
+The transmitted symbol is a synthesis of three independent physical dimensions:
+* **Frequency ($f$):** $n$-bit mapping
+* **Amplitude ($A$):** $m$-bit PAM-based voltage mapping
+* **Phase ($\phi$):** $x$-bit phase-division slotting
 
-[2] PAM방식 MQM
-AMPLITUDE방식도 [1]과유사하게 비트값을 하면
-m bit를 1채널에 보낼 수 있음
+The composite signal is represented as: 
+$$S(t) = A \cdot \sin(2\pi f t + \phi)$$
 
-**==> 핵심 : n 비트값을  10진수 mv, V 로 변경 하여 전송 **
+---
 
- 1channel에 1cycle 당 n + m bit를  보내는 기술...
+## 3. Technical Specifications
+### 3.1 Efficiency (Example Configuration)
+By utilizing 8 phase slots with 8-bit frequency and 8-bit amplitude mapping, MQM achieves massive throughput per cycle:
+
+| Dimension | Bits | States/Channels |
+| :--- | :--- | :--- |
+| **Phase ($\phi$)** | 3 bits | 8 Independent Slots ($0^\circ$ to $315^\circ$) |
+| **Frequency ($f$)** | 8 bits | 256 States per slot |
+| **Amplitude ($A$)** | 8 bits | 256 Levels per slot |
+
+* **Total Capacity:** 16 bits ($f+A$) $\times$ 8 slots = **128 bits (16 Bytes) per Cycle**.
+* **Theoretical Gain:** Significant reduction in required cycles compared to conventional 1-bit-per-lane HBM signaling.
+
+### 3.2 Physical Advantages
+* **Thermal Mitigation:** Multi-bit superposition reduces high-frequency switching requirements, preventing "frequency explosion" and heat buildup.
+* **Natural Guard Band:** Scaling-based spacing acts as a natural noise filter, ensuring high integrity in noisy environments.
+
+---
+
+## 4. Implementation Pipeline
+The data flow integrates modern compression and signal processing:
+
+1.  **Compression:** Raw data $\rightarrow$ Huffman Encoding.
+2.  **Encoding:** MQM Mapping Table $\rightarrow$ Fourier Encoding (Superposition).
+3.  **Transmission:** Complex Waveform over HBM/Data Channel.
+4.  **Decoding:** Fourier Decoding $\rightarrow$ MQM Reverse Mapping.
+5.  **Restoration:** Huffman Decoding $\rightarrow$ Raw Data for CPU/GPU.
+
+---
+
+## 5. Conclusion & Waiver (Open Source Declaration)
+This algorithm, conceived in the early 1980s and formalized in 2026, is released as **Open Source for the public good**.
+
+* **Origin:** Inspired by intuitive non-linear data structures and formalized to solve HBM thermal limits.
+* **Patent Waiver:** The author (**scwpark**) explicitly waives all exclusive patent rights. This technology is intended to be used freely by humanity.
+* **Prior Art Status:** This document serves as legal **Prior Art**. Any attempt by third parties to patent this logic is strongly opposed.
+
+---
+
+## 6. Authors & Contact
+* **Author:** Sungtae Park (Independent Researcher)
+* **Co-workers:** Hyunuk Pak, EunHwan Park
+* **Contact:** scwpark@naver.com, scwpark@daum.net
+* **Community:** [cafe.daum.net/scwpark](http://cafe.daum.net/scwpark)
