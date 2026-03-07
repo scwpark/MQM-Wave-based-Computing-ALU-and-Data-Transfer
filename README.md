@@ -1,4 +1,4 @@
-# MQM-PAM/OFDM Phase Transmission
+# MQM-PAM/OFDM Phase Transmission( MQM_final (2026.03.07).pdf )
 ## Superposition Algorithm for HBM, CPU, NPU, and GPU
 
 > **"Dreaming of MQM-based high-speed data transmission across all computing units and MQM CPU/GPU/NPU"**
