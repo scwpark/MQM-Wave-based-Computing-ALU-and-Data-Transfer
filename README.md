@@ -29,7 +29,7 @@
 * **Inventor:** Sungtae Park (scwpark) 
 * **Co-workers:** Hyunuk Pak, EunHwan Park
 * **Community:** [https://cafe.daum.net/scwpark](https://cafe.daum.net/scwpark)
-**Zenodo DOI:**  https://doi.org/10.5281/zenodo.18924211
+* **Zenodo DOI:**  https://doi.org/10.5281/zenodo.18924211
 
 "MQM Big ALU는 더 이상 속도만을 쫓지 않습니다. 우리는 열(Heat)을 남기지 않는 차가운 연산으로, 데이터 전송의 '양자적 도약(Quantum Jump)'을 실현합니다."
 
