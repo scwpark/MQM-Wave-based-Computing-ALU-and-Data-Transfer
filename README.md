@@ -178,6 +178,15 @@ This algorithm, conceived in the early 1980s and formalized in 2026, is released
 Author: Sungtae Park (scwpark)
 # Date: 2026.3.4 ~
 
+## 🗜️ Compression: Huffman Encoding
+
+MQM pipeline includes Huffman pre-compression before transmission.
+
+> Reference implementation: **Huffman (VC 6.0 Korean version)**
+> 8_huffmancode_mem_DecompressHeapsort_frequencycompact(2006-7-18).zip
+> - Author: Sungtae Park (scwpark)
+> - Source code available in this repository
+
 ## ☕ Buy Me a Coffee
 
 MQM is free and open-source forever — no patent, no fee.
