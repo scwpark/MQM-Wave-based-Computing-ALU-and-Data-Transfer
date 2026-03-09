@@ -40,6 +40,12 @@ A single data symbol is defined by the integration of three physical dimensions:
 
  Option A:  [ Leading bits → Frequency ]  +  [ Trailing bits → Amplitude ]
  Option B:  [ Leading bits → Amplitude ]  +  [ Trailing bits → Frequency ]
+
+🔑 Core Formula — Throughput = [Frequency(n) + Amplitude(m)] × Phase 수식 명확화
+💡 Key Point 박스 — 각 섹션마다 핵심 포인트를 > 💡 로 강조
+⚡ 발열 관련 표 — "발열에 좋은 방법" 내용을 표로 시각화
+📜 Prior Art / Patent Waiver — This technology is released as prior art. The author waives patent rights. 굵게 강조
+👤 저자 크레딧 표 — Sungtae Park, Hyunuk Pak, EunHwan Park 정리
  
 ;This technology is released as prior art.
 ;The author waives patent rights.
