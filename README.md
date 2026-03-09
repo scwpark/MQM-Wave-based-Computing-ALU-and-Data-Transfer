@@ -64,7 +64,7 @@ The mapping of `n bits` and `m bits` to the **leading** or **trailing** bit sequ
 > **Key Point:** MQM does **not** mandate a fixed mapping — the designer selects the assignment based on hardware constraints and optimization goals.
 
 
-📜 Prior Art / Patent Waiver — This technology is released as prior art. The author waives patent rights. 굵게 강조
+📜  Prior Art / Patent Waiver — This technology is released as prior art. The author waives patent rights. 
 
 👤 저자 크레딧 표 — Sungtae Park, Hyunuk Pak, EunHwan Park 정리
  
