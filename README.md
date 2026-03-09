@@ -123,3 +123,24 @@ This algorithm, conceived in the early 1980s and formalized in 2026, is released
 * **Co-workers:** Hyunuk Pak, EunHwan Park
 * **Contact:** scwpark@naver.com, scwpark@daum.net
 * **Community:** [cafe.daum.net/scwpark](http://cafe.daum.net/scwpark)
+
+
+## MQM Channel Scaling : Quantum Jump Extension
+
+### Channel 수 확장 시 성능
+
+| Channel 수 | Register Size | 전송효율 (vs 64bit CPU) |
+|-----------|--------------|----------------------|
+| 64 ch     | 32KB         | 4,096배              |
+| 128 ch    | 64KB         | 8,192배              |
+| 256 ch    | 128KB        | 16,384배             |
+| 1024 ch   | 512KB        | 65,536배             |
+| 4096 ch   | 2MB          | 262,144배            |
+
+### 핵심 원리
+- Channel 수 증가 = 주파수 상승 없이 성능 선형 증가
+- 물리적 wire 추가 없이 MQM 인코딩으로 확장 가능
+- HBM4 (2048 wire) 적용 시 즉시 구현 가능
+
+Author: Sungtae Park (scwpark)
+Date: 2026.3.4 ~
