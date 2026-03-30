@@ -3,9 +3,9 @@
 "Big ALU Quantum Jump: MQM-Based Ultra-Fast HBM Transfer with Zero-Heat Architecture"
 
 **AESA radar controls F + A + P simultaneously.
-But never as (F + A) × 2^P.
-MQM is the first to see it that way.
-Same physics. New formula. New paradigm.**
+* But never as (F + A) × 2^P.
+* MQM is the first to see it that way.
+* Same physics. New formula. New paradigm.**
 
 ## 🚀 Overview
 **MQM (Multi-Quantum Mode)** is a revolutionary data transmission and processing architecture that transitions CPU/GPU/NPU systems from single-bit processing to a multi-dimensional **3D-Mapping** paradigm. By simultaneously encoding data into **Frequency, Amplitude, and Phase** dimensions, MQM achieves ultra-high-speed data transfer within a single cycle.
