@@ -1,6 +1,6 @@
 # MQM (Multi-Quantum Mode) wave based ALU(CPU/GPU/NPU) and data transfer algorithms
 
-"Big ALU Quantum Jump: MQM-Based Ultra-Fast HBM Transfer with Zero-Heat Architecture"
+"Big ALU Quantum Jump: MQM-Based Ultra-Fast HBM Transfer with Low-Heat Architecture"
 
 **AESA radar controls F + A + P simultaneously.
 * But never as (F + A) × 2^P.
