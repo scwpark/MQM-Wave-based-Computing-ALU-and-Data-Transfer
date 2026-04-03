@@ -10,7 +10,7 @@ wave based alu(cpu/NPU/GPU)
 including wave-based ALUs (CPU/GPU/NPU cores), internal buses, memory systems (RAM, HBM), a photonic interconnects over optical media and backbone networks.
 
 *MQM optical communication makes it possible to strip robots, and self-driving cars etc. down to a single lightweight MQM chip — and let the server think for them. When latency collapses to 
-near-zero, intelligence no longer needs to be local. The future of autonomy is not onboard. It's in the network. ( "The future of autonomy is not onboard. It's in the network.")— MQM solves the latency wall that Cloud Robotics couldn't overcome.
+near-zero, intelligence no longer needs to be local. The future of autonomy is not onboard. It's in the network. ( "The future of autonomy is not onboard. It's in the network.")— MQM solves the latency wall that Cloud Robotics couldn't overcome. ( Employing multiple MQM Core C units may improve system safety and robustness. )
   
 **(AESA radar controls F + A + P simultaneously.
 * But never as (F + A) × 2^P.
