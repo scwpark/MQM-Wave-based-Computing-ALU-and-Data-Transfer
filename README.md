@@ -5,10 +5,11 @@ wave based computing
 wave based alu(cpu/NPU/GPU)
 
 "Big ALU Quantum Jump: MQM-Based Ultra-Fast HBM Transfer with Low-Heat Architecture"
-* MQM (Multi-Quantum Mode) introduces a wave-based ALU architecture — a Post-Von Neumann, next-generation ALU design for CPU, GPU, and NPU systems. ( wave based computing )
-  
-* MQM synthesizes Frequency(Color), Amplitude(Brightness / Intensity), and Phase(Interference · Diffraction · Polarization) into a unified 3D signal
-* — applicable to every data channel in existence: CPU/GPU/NPU cores, their internal buses, RAM, HBM, Photonic interconnects via Optical media and backbone networks(Optics )."
+*"MQM synthesizes Frequency(Color), Amplitude(Brightness / Intensity), and Phase(Interference · Diffraction · Polarization) into a unified 3D signal. This approach is applicable across diverse data channels,
+including wave-based ALUs (CPU/GPU/NPU cores), internal buses, memory systems (RAM, HBM), a photonic interconnects over optical media and backbone networks.
+
+*MQM optical communication makes it possible to strip robots, self-driving cars, and fighter jets etc. down to a single lightweight MQM chip — and let the server think for them. When latency collapses to 
+near-zero, intelligence no longer needs to be local. The future of autonomy is not onboard. It's in the network. ( "The future of autonomy is not onboard. It's in the network.")— MQM solves the latency wall that Cloud Robotics couldn't overcome.
   
 **(AESA radar controls F + A + P simultaneously.
 * But never as (F + A) × 2^P.
