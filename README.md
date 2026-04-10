@@ -57,7 +57,7 @@ MQM ALU :  6. MQM_ALU_Wave (26.03.13)2-1.jpg      <====== MQM ALU
 
 ![System Architecture](3-1.CPU_HBM_ALL%20electronics.png)
 ![System Architecture](3-2.CPU_HBM_ALL%20electronics.png)
-![System Architecture](7-A.MQM_ALU_A_Circuit(50PS(data)_50PS(NC).jpg)
+![System Architecture](7-A.MQM_ALU_A_Circuit(50PS(data)_50PS(NC).JPG )
 
 "MQM eliminates the fundamental premise of on-chip HBM integration.
 
