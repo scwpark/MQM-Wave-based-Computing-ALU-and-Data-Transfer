@@ -48,7 +48,8 @@ MQM ALU :  6. MQM_ALU_Wave (26.03.13)2-1.jpg      <====== MQM ALU
 
                       6. MQM_ALU_Wave (26.03.13)2-2.jpg       <====== MQM ALU
 
-                      6. MQM_ALU_Wave Compute(26.03.04- xx.yy)SCW_G.pdf 
+                      6. [ENG]MQM_Wave based Computing_ALU(26.03.04-04.07)SCW_G.pdf 
+                         [KOR]MQM_Wave based Computing_ALU(26.03.04-04.07)SCW_G.pdf 
 
                          : Superposition example (python)
 
