@@ -52,7 +52,7 @@ MQM ALU :
  
 6.**[KOR]MQM_Wave based Computing_ALU(26.03.04-04.07)SCW_G.pdf **
      : **Superposition example (python)**
-     ( Wave based ALU, Next generation ALU )
+    *( Wave based ALU, Next generation ALU )
 
 7-1.MQM_ALU_Circuit(50PS(data)_50PS(NC)easy.pptx
 
