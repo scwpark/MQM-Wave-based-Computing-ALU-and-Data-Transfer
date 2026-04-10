@@ -32,7 +32,7 @@ n th CPU/GPU core ] → [MQM Encoder IP] → wire → [MQM Decoder IP] → [HBM4
 
 ------------------------------------------------------------------------
 
-![MQM Architecture Diagram](blob/main/3-1.CPU_HBM_ALL%20electronics.png)
+![MQM Architecture Diagram](./blob/main/3-1.CPU_HBM_ALL%20electronics.png)
  
 
 
