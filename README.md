@@ -14,13 +14,7 @@ This method effectively optimizes spectral efficiency by exploiting **phase-supe
 offering a robust alternative to conventional **PAM-OFDM-phase architectures**.
 
 
-  
-**(AESA radar controls F + A + P simultaneously.
-* But never as (F + A) × 2^P.
-* MQM is the first to see it that way.
-* Same physics. New formula. New paradigm.)**
-
-n th CPU/GPU core ] → [MQM Encoder IP] → wire → [MQM Decoder IP] → [HBM4 or all electronics]
+[ n th CPU/GPU core ] → [MQM Encoder IP] → wire → [MQM Decoder IP] → [HBM4 or all electronics]
 
 [HPM4 or all electronics] → [MQM Encoder IP] → wire → [MQM Decoder IP] → [ n th CPU/GPU core ]
 
