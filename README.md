@@ -122,7 +122,7 @@ see: MQM_Final(26.03.04-03.09)S_G (appendix).pdf
 * **Inventor:** Sungtae Park (scwpark@daum.net, scwpark@naver.com,  inactive( scwpark@hananet.net, scwpark@lge.com ) )
 * **Co-workers:** Hyunuk Pak, EunHwan Park
 * **Community:** [https://cafe.daum.net/scwpark](https://cafe.daum.net/scwpark)
-* **Zenodo DOI(Latest):** https://doi.org/10.5281/zenodo.19384110
+* **Zenodo DOI(Latest):** https://doi.org/10.5281/zenodo.19449687
 * **Zenodo DOI:**  https://doi.org/10.5281/zenodo.18924211
 ![MQM Channel Scaling Table](MQM_table(2026_03_09).jpg)
 
