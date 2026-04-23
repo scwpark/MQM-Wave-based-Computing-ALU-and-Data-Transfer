@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="lpMmMhlIK46WTtMZre3hRndWvXPiXajSGVwaJXF2Cxc" />
 # MQM (Multi-Quantum Mode) Wave based Computing, ALU(CPU/GPU/NPU) and data transfer algorithms
 
 MQM (Multi-Quantum Mode) introduces a **Wave based ALUs **architecture — a Post-Von Neumann, next-generation ALU design for CPU, GPU, and NPU systems. ( **Wave based computing** ).
